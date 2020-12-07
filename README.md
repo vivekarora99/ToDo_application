@@ -16,8 +16,8 @@ I assume that following softwares are installed :
   
 b)Approach to the solution: 
 Since we were given a choice between nodejs or java and i did not have any expreince with nodejs.I thought better to create backnd api's in java using 
-spring boot.So i followed tutorial from javabrains to create back-end API's.
-So i created a class called Todo which will have attributes id,state,title,priority,data etc.Then i created a diffrent layers so that code is more readeable
+spring boot.So I followed tutorial from javabrains to create back-end API's.
+I created a class called Todo which will have attributes id,state,title,priority,data etc.Then i created a diffrent layers so that code is more readeable
 and understandable. For Todo i have a controller,service and repository layer.Repository used CrudRepository from JPA to map tables to Class Todo.
 Service layer contains the business logic.Controller has all the end points needed for Create,Read,Update and delete Todo in the system.
 
@@ -40,6 +40,7 @@ Todo:-
 d)Steps to run application : 
 
 1. Go to todo folder  target/todo-0.0.1-SNAPSHOT.jar
+ jar file name- todo-0.0.1-SNAPSHOT.jar
 2. run following command in cmd prompt 
 	java -jar todo-0.0.1-SNAPSHOT.jar
 3. Now after it is succussfull you can use post man to call GET,PUT,POST,DELETE request
